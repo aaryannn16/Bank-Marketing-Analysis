@@ -1,7 +1,10 @@
 Bank Marketing Lead Conversion - ML Project
 Setup Instructions
+
 pip install pandas numpy scikit-learn matplotlib seaborn imbalanced-learn
+
 Improvement Step – SMOTE
+
 To address class imbalance, I applied SMOTE (Synthetic Minority Oversampling Technique) during training. This rebalanced the training data and helped the model improve recall for the minority class (subscribers).
 - Recall for class 1 improved from 41% to 43%
 - F1-score slightly increased from 0.51 to 0.52
